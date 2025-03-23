@@ -3,3 +3,8 @@ Host github.com
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 
+Host jlk
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github-jlk
+  IdentitiesOnly yes
